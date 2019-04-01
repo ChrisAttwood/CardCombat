@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a258f42cae106b4a91f6442e2ec0a99, type: 3}
+  m_Name: GraveYard
+  m_EditorClassIdentifier: 
+  Title: Grave Yard
+  Sprite: {fileID: 21300000, guid: fbb3ff0df29fc97499544123c28f6aa8, type: 3}
+  Level: 5
+  Primary:
+  - {fileID: 11400000, guid: 551d5fbcb28895742ba3f5b02b63ecf7, type: 2}
+  - {fileID: 11400000, guid: fc13c8a7e0e593b4c94a3641d9f76829, type: 2}
+  Secondary: []
+  Head: []
+  Body:
+  - {fileID: 11400000, guid: d2ed96eaa82e20b448e9af392d72ec87, type: 2}
+  - {fileID: 11400000, guid: 5ebfe18288678ed41919624451c383ff, type: 2}
+  Legs:
+  - {fileID: 11400000, guid: 8752ef4de1c26584d83447bf7b6aa578, type: 2}
+  - {fileID: 11400000, guid: 2e68208a1c4e73d4697be99d475a1ad7, type: 2}

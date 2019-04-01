@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ef3e063971477344a962a9280860683, type: 3}
+  m_Name: Lunge
+  m_EditorClassIdentifier: 
+  Title: Lunge
+  Description: +2 ATTACK
+  Cost: 1
+  Attack: 2
+  Defence: 0
+  Tactics: 0
+  Actions: 0
+  Health: 0
+  Power: 0
+  PowerEffect: 0
+  PowerSink: 0
+  PowerRequired: 0
+  Buffs: []

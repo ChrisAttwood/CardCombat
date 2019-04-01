@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a258f42cae106b4a91f6442e2ec0a99, type: 3}
+  m_Name: Inn
+  m_EditorClassIdentifier: 
+  Title: Inn
+  Sprite: {fileID: 21300000, guid: 8a019a14d014ebf41b79b7841d7319c1, type: 3}
+  Level: 5
+  Primary:
+  - {fileID: 11400000, guid: 545fb74f9aad3f94ca1a2d82bb02024a, type: 2}
+  - {fileID: 11400000, guid: 9a1bf1ab0eb2a054e9c11c277e7dd4b6, type: 2}
+  - {fileID: 11400000, guid: 551d5fbcb28895742ba3f5b02b63ecf7, type: 2}
+  - {fileID: 11400000, guid: 388012314e73ccd49ac95a0f85d832df, type: 2}
+  - {fileID: 11400000, guid: 80d37839b1b989649951607a32d32d56, type: 2}
+  - {fileID: 11400000, guid: 1b158368f1c0d414e91f154503f380cc, type: 2}
+  - {fileID: 11400000, guid: fc13c8a7e0e593b4c94a3641d9f76829, type: 2}
+  Secondary:
+  - {fileID: 11400000, guid: 84f20f220642e7d498562d1d5d072574, type: 2}
+  - {fileID: 11400000, guid: f4fc40cbd38b18f478b1d3fbce2f24a6, type: 2}
+  - {fileID: 11400000, guid: 0672c4412ebfb1c479fd87809e59dacd, type: 2}
+  Head:
+  - {fileID: 11400000, guid: 864fbfa680654b74389025b1a19c223e, type: 2}
+  - {fileID: 11400000, guid: 024c1024bb0675145af9178a6d04eed9, type: 2}
+  - {fileID: 11400000, guid: a7411ff7cfa5e1b40929c86681fe3e87, type: 2}
+  - {fileID: 11400000, guid: 864fbfa680654b74389025b1a19c223e, type: 2}
+  - {fileID: 11400000, guid: 63b2ebe40da6c204887d814859771587, type: 2}
+  Body:
+  - {fileID: 11400000, guid: 4a7b0a94d6cbdc148b952b8da314928a, type: 2}
+  - {fileID: 11400000, guid: c74534b76f6cae844991ad3d89f15a59, type: 2}
+  - {fileID: 11400000, guid: 4c69020ba27599347b01fbae362fab26, type: 2}
+  - {fileID: 11400000, guid: 5ebfe18288678ed41919624451c383ff, type: 2}
+  - {fileID: 11400000, guid: d2ed96eaa82e20b448e9af392d72ec87, type: 2}
+  - {fileID: 11400000, guid: 2bbe4d2711753554e8e50d29fd178ecb, type: 2}
+  Legs:
+  - {fileID: 11400000, guid: b0ae0f21acac61a41b932374d5c5cb17, type: 2}
+  - {fileID: 11400000, guid: b3832de8bdb29c74f9704d6147785f9e, type: 2}
+  - {fileID: 11400000, guid: 1f22073e7bfbbed45bb541ce647381de, type: 2}
+  - {fileID: 11400000, guid: 2e68208a1c4e73d4697be99d475a1ad7, type: 2}
+  - {fileID: 11400000, guid: 8752ef4de1c26584d83447bf7b6aa578, type: 2}
+  - {fileID: 11400000, guid: fad12c7519b74d34f93819de620d9c99, type: 2}
