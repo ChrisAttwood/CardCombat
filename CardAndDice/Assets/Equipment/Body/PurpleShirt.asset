@@ -15,7 +15,8 @@ MonoBehaviour:
   Title: Shirt
   Sprite: {fileID: 21300000, guid: ad6a6dda2db3dff49846209c230ff9d7, type: 3}
   Slot: 3
-  Cards: []
+  Cards:
+  - {fileID: 11400000, guid: 7c98157c918237943a6cb15cc898b004, type: 2}
   ActionPoints: 0
   TacticPoints: 1
   ArmourPoints: 0
