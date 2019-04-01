@@ -29,17 +29,18 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0672c4412ebfb1c479fd87809e59dacd, type: 2}
   Head:
   - {fileID: 11400000, guid: 864fbfa680654b74389025b1a19c223e, type: 2}
-  - {fileID: 11400000, guid: 024c1024bb0675145af9178a6d04eed9, type: 2}
-  - {fileID: 11400000, guid: a7411ff7cfa5e1b40929c86681fe3e87, type: 2}
+  - {fileID: 11400000, guid: d9fbf48016b81874eb74a686cb0cd4f8, type: 2}
+  - {fileID: 11400000, guid: d9fbf48016b81874eb74a686cb0cd4f8, type: 2}
   - {fileID: 11400000, guid: 864fbfa680654b74389025b1a19c223e, type: 2}
-  - {fileID: 11400000, guid: 63b2ebe40da6c204887d814859771587, type: 2}
+  - {fileID: 11400000, guid: d9fbf48016b81874eb74a686cb0cd4f8, type: 2}
   Body:
   - {fileID: 11400000, guid: 4a7b0a94d6cbdc148b952b8da314928a, type: 2}
   - {fileID: 11400000, guid: c74534b76f6cae844991ad3d89f15a59, type: 2}
-  - {fileID: 11400000, guid: 4c69020ba27599347b01fbae362fab26, type: 2}
+  - {fileID: 11400000, guid: ed0eced9a84c8af4bb9bb5713097355f, type: 2}
   - {fileID: 11400000, guid: 5ebfe18288678ed41919624451c383ff, type: 2}
   - {fileID: 11400000, guid: d2ed96eaa82e20b448e9af392d72ec87, type: 2}
   - {fileID: 11400000, guid: 2bbe4d2711753554e8e50d29fd178ecb, type: 2}
+  - {fileID: 11400000, guid: e66d88352dc925d4884ed8139b41311e, type: 2}
   Legs:
   - {fileID: 11400000, guid: b0ae0f21acac61a41b932374d5c5cb17, type: 2}
   - {fileID: 11400000, guid: b3832de8bdb29c74f9704d6147785f9e, type: 2}

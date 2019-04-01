@@ -20,9 +20,9 @@ MonoBehaviour:
   Tactics: 0
   Actions: 0
   Health: 0
-  Power: -5
+  Power: -3
   PowerEffect: 0
   PowerSink: 0
-  PowerRequired: 5
+  PowerRequired: 3
   Buffs:
   - {fileID: 11400000, guid: fb710235ec073cd41b1288df996d0b19, type: 2}

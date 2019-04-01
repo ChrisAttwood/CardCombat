@@ -19,10 +19,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 551d5fbcb28895742ba3f5b02b63ecf7, type: 2}
   - {fileID: 11400000, guid: fc13c8a7e0e593b4c94a3641d9f76829, type: 2}
   Secondary: []
-  Head: []
+  Head:
+  - {fileID: 11400000, guid: 599b2b4b112165d44acbcf336dc79f9a, type: 2}
+  - {fileID: 11400000, guid: 864fbfa680654b74389025b1a19c223e, type: 2}
   Body:
   - {fileID: 11400000, guid: d2ed96eaa82e20b448e9af392d72ec87, type: 2}
   - {fileID: 11400000, guid: 5ebfe18288678ed41919624451c383ff, type: 2}
   Legs:
-  - {fileID: 11400000, guid: 8752ef4de1c26584d83447bf7b6aa578, type: 2}
+  - {fileID: 11400000, guid: 3317a9456237d5640b4f164baef9d1a0, type: 2}
   - {fileID: 11400000, guid: 2e68208a1c4e73d4697be99d475a1ad7, type: 2}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: Temple
   Description: +5 ATTACK
-  Cost: 1
+  Cost: 2
   Attack: 5
   Defence: 0
   Tactics: 0

@@ -20,6 +20,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f4fc40cbd38b18f478b1d3fbce2f24a6, type: 2}
   Head:
   - {fileID: 11400000, guid: 63b2ebe40da6c204887d814859771587, type: 2}
+  - {fileID: 11400000, guid: 37557cd1290e5ad4b8cfc5c81f7fadfe, type: 2}
   Body: []
   Legs:
   - {fileID: 11400000, guid: b0ae0f21acac61a41b932374d5c5cb17, type: 2}

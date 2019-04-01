@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: Apple
   m_EditorClassIdentifier: 
   Title: Apple
-  Description: "Add 1 HEALTH. \nAdd 1 ACTION. \nAdd 1 POWER."
+  Description: "+1 HEALTH. \n+1 ACTION. \n+1 POWER."
   Cost: 0
   Attack: 0
   Defence: 0
   Tactics: 0
   Actions: 1
   Health: 1
-  Power: 3
+  Power: 1
   PowerEffect: 0
   PowerSink: 0
   PowerRequired: 0
