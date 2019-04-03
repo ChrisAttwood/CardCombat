@@ -141,14 +141,14 @@ public class Entity : MonoBehaviour
             switch (buff.BuffType)
             {
                 case BuffType.TickHealthChange:
-                    HealthPoints += buff.Amount;
+                    HealthPoints += buff.TickAmount;
                     if (HealthPoints < 0)
                     {
                         HealthPoints = 0;
                     }
                     break;
                 case BuffType.TickPowerChange:
-                    PowerPoints += buff.Amount;
+                    PowerPoints += buff.TickAmount;
                     if (PowerPoints < 0)
                     {
                         PowerPoints = 0;

@@ -128,7 +128,19 @@ public class Battle : MonoBehaviour
 
        
         ExpireCardBuffs();
-        Attacker.StoreBuffs(card.Buffs.Where(x=> !x.Offensive).ToArray());
+        //if (card.Buff != null)
+        //{
+        //    if (card.Buff.Offensive)
+        //    {
+        //        Defender.StoreBuff(card.Buff);
+        //    }
+        //    else
+        //    {
+        //        Attacker.StoreBuff(card.Buff);
+        //    }
+        //}
+
+        Attacker.StoreBuffs(card.Buffs.Where(x => !x.Offensive).ToArray());
         Defender.StoreBuffs(card.Buffs.Where(x => x.Offensive).ToArray());
 
         Attacker.Spend(card);

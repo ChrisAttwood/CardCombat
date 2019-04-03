@@ -21,8 +21,6 @@ public class Card : ScriptableObject
     public PowerEffect PowerEffect;
     public bool PowerSink;
     public int PowerRequired;
-
-
     public Buff[] Buffs;
 
 

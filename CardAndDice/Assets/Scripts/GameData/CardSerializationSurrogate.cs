@@ -32,6 +32,9 @@ public class CardSerializationSurrogate : ISerializationSurrogate
         b.Actions = (int)info.GetValue("Actions", typeof(int));
         b.Attack = (int)info.GetValue("Attack", typeof(int));
         b.Buffs = (Buff[])info.GetValue("Buffs", typeof(Buff[]));
+      
+       
+      
         b.Cost = (int)info.GetValue("Cost", typeof(int));
         b.Defence = (int)info.GetValue("Defence", typeof(int));
         b.Description = (string)info.GetValue("Description", typeof(string));

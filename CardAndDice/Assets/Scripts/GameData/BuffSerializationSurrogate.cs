@@ -11,8 +11,8 @@ public class BuffSerializationSurrogate : ISerializationSurrogate
     {
 
         Buff b = (Buff)obj;
-        info.AddValue("Value", b.Value);
-        info.AddValue("Amount", b.Amount);
+        info.AddValue("Value", b.MultiplierValue);
+        info.AddValue("TickAmount", b.TickAmount);
         info.AddValue("Description", b.Description);
         info.AddValue("name", b.name);
         info.AddValue("Period", b.Period);
@@ -25,8 +25,8 @@ public class BuffSerializationSurrogate : ISerializationSurrogate
     {
 
         Buff b = ScriptableObject.CreateInstance(typeof(Buff)) as Buff;
-        b.Value = (float)info.GetValue("Value", typeof(float));
-        b.Amount = (int)info.GetValue("Amount", typeof(int));
+        b.MultiplierValue = (float)info.GetValue("Value", typeof(float));
+        b.TickAmount = (int)info.GetValue("TickAmount", typeof(int));
         b.Description = (string)info.GetValue("Description", typeof(string));
         b.name = (string)info.GetValue("name", typeof(string));
         b.Period = (Period)info.GetValue("Period", typeof(Period));

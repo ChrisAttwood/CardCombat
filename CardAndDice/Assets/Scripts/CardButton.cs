@@ -13,7 +13,30 @@ public class CardButton : MonoBehaviour
         {
             transform.GetChild(2).GetComponent<Text>().text = card.Title;
             transform.GetChild(3).GetComponent<Text>().text = card.Cost.ToString();
-            transform.GetChild(4).GetComponent<Text>().text = card.Description.AddColour();
+
+            string description = card.Description.AddColour();
+            //if (card.Buff != null)
+            //{
+            //    if (string.IsNullOrEmpty(description))
+            //    {
+            //        description = card.Buff.Description.AddColour();
+            //    }
+            //    else
+            //    {
+            //        description += "\n" + card.Buff.Description.AddColour();
+            //    }
+               
+            //}
+            foreach(Buff buff in card.Buffs)
+            {
+                if (!string.IsNullOrEmpty(description))
+                {
+                    description += "\n";
+                }
+                description += buff.Description.AddColour();
+            }
+
+            transform.GetChild(4).GetComponent<Text>().text = description;
 
             if (card.PowerRequired > 0)
             {

@@ -8,8 +8,8 @@ using UnityEngine;
 public class Buff : ScriptableObject
 {
     
-    public float Value;
-    public int Amount;
+    public float MultiplierValue;
+    public int TickAmount;
     public Period Period;
     public BuffType BuffType;
     public bool Offensive;

@@ -49,10 +49,10 @@ public class CardEffect
             switch(buff.BuffType)
             {
                 case BuffType.AttackMultiplier:
-                    Attack = Mathf.RoundToInt(Attack * buff.Value);
+                    Attack = Mathf.RoundToInt(Attack * buff.MultiplierValue);
                     break;
                 case BuffType.DefenceMultiplier:
-                    Defence = Mathf.RoundToInt(Defence * buff.Value);
+                    Defence = Mathf.RoundToInt(Defence * buff.MultiplierValue);
                     break;
             }
 
