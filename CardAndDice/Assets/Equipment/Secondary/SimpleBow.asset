@@ -19,7 +19,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8946932424dc65b448d962800c47672b, type: 2}
   - {fileID: 11400000, guid: 8811e03143e0f804084b3beb11807726, type: 2}
   - {fileID: 11400000, guid: 8811e03143e0f804084b3beb11807726, type: 2}
-  ActionPoints: 2
-  TacticPoints: 2
+  ActionPoints: 0
+  TacticPoints: 0
   ArmourPoints: 0
   HealthPoints: 0

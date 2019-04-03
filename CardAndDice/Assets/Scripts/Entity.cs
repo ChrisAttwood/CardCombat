@@ -67,8 +67,8 @@ public class Entity : MonoBehaviour
 
         Deck = new Stack<Card>(deck.OrderBy(a => System.Guid.NewGuid()).ToList());
 
-        TaticPoints = Equipment.Sum(x => x.TacticPoints);
-        ActionPoints = Equipment.Sum(x => x.ActionPoints);
+        TaticPoints = 3 + Equipment.Sum(x => x.TacticPoints);
+        ActionPoints = 3 + Equipment.Sum(x => x.ActionPoints);
         ArmourPoints = Equipment.Sum(x => x.ArmourPoints);
         HealthPoints = 10 + Equipment.Sum(x => x.HealthPoints);
         Defence = ArmourPoints;

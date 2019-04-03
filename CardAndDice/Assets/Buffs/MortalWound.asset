@@ -17,4 +17,4 @@ MonoBehaviour:
   Period: 3
   BuffType: 3
   Offensive: 1
-  Description: (-) Bleed 5 HEALTH per turn.
+  Description: (-) -5 HEALTH per turn.
