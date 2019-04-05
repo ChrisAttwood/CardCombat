@@ -44,14 +44,17 @@ public class Loot : MonoBehaviour
             var equip = GameFileManager.GameFile.Equipment.FirstOrDefault(x => x.Slot == slot);
             if (equip == null)
             {
-                btn.transform.GetChild(0).GetComponent<Text>().text = "empty";
+                btn.transform.GetChild(1).GetComponent<Text>().text = "empty";
                 btn.GetComponent<Image>().color = Color.black;
                 btn.interactable = false;
             }
             else
             {
-                btn.transform.GetChild(0).GetComponent<Text>().text = equip.Title;
-                btn.GetComponent<Image>().sprite = equip.Sprite;
+                btn.transform.GetChild(1).GetComponent<Text>().text = equip.Title;
+                btn.GetComponent<Image>().sprite = equip.BackSprite;
+                btn.GetComponent<Image>().color = equip.BackColour;
+                btn.transform.GetChild(0).GetComponent<Image>().sprite = equip.TopSprite;
+                btn.transform.GetChild(0).GetComponent<Image>().color = equip.TopColour;
                 btn.interactable = true;
                 btn.onClick.AddListener(delegate { Train(equip); });
                 var ei = btn.gameObject.AddComponent<EquipmentIcon>();
@@ -62,14 +65,17 @@ public class Loot : MonoBehaviour
             var loot = GameFileManager.GameFile.Loot.FirstOrDefault(x => x.Slot == slot);
             if (loot == null)
             {
-                lootBtn.transform.GetChild(0).GetComponent<Text>().text = "empty";
+                lootBtn.transform.GetChild(1).GetComponent<Text>().text = "empty";
                 lootBtn.GetComponent<Image>().color = Color.black;
                 lootBtn.interactable = false;
             }
             else
             {
-                lootBtn.transform.GetChild(0).GetComponent<Text>().text = loot.Title;
-                lootBtn.GetComponent<Image>().sprite = loot.Sprite;
+                lootBtn.transform.GetChild(1).GetComponent<Text>().text = loot.Title;
+                lootBtn.GetComponent<Image>().sprite = loot.BackSprite;
+                lootBtn.GetComponent<Image>().color = loot.BackColour;
+                lootBtn.transform.GetChild(0).GetComponent<Image>().sprite = loot.TopSprite;
+                lootBtn.transform.GetChild(0).GetComponent<Image>().color = loot.TopColour;
                 lootBtn.interactable = true;
                 lootBtn.onClick.AddListener(delegate { Select(loot); });
                 var ei = lootBtn.gameObject.AddComponent<EquipmentIcon>();

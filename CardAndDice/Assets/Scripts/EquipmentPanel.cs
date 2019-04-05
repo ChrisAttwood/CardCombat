@@ -11,7 +11,8 @@ public class EquipmentPanel : MonoBehaviour
     public GameObject CardDisplay;
     public Button CardButton;
     public Text Title;
-    public Image Sprite;
+    public Image SpriteBack;
+    public Image SpriteTop;
     public Text Details;
 
     private void Awake()
@@ -39,8 +40,13 @@ public class EquipmentPanel : MonoBehaviour
         }
 
         Title.text = equipment.Title;
-        Sprite.gameObject.SetActive(true);
-        Sprite.sprite = equipment.Sprite;
+        SpriteBack.gameObject.SetActive(true);
+        SpriteBack.sprite = equipment.BackSprite;
+        SpriteBack.color = equipment.BackColour;
+
+        SpriteTop.gameObject.SetActive(true);
+        SpriteTop.sprite = equipment.TopSprite;
+        SpriteTop.color = equipment.TopColour;
 
         string details = "";
 
@@ -68,8 +74,11 @@ public class EquipmentPanel : MonoBehaviour
     {
         Title.text = "";
         Details.text = "";
-        Sprite.sprite = null;
-        Sprite.gameObject.SetActive(false);
+        SpriteBack.sprite = null;
+        SpriteBack.gameObject.SetActive(false);
+        SpriteTop.sprite = null;
+        SpriteTop.gameObject.SetActive(false);
+
         for (int i = CardDisplay.transform.childCount; i > 0; i--)
         {
             Destroy(CardDisplay.transform.GetChild(i - 1).gameObject);

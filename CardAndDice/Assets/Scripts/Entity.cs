@@ -48,7 +48,10 @@ public class Entity : MonoBehaviour
             var e = Equipment.FirstOrDefault(x => x.Slot == s);
             if (e != null)
             {
-                transform.GetChild((int)s).GetComponent<SpriteRenderer>().sprite = e.Sprite;
+                transform.GetChild((int)s).GetComponent<SpriteRenderer>().sprite = e.BackSprite;
+                transform.GetChild((int)s).GetComponent<SpriteRenderer>().color = e.BackColour;
+                transform.GetChild((int)s + 5).GetComponent<SpriteRenderer>().sprite = e.TopSprite;
+                transform.GetChild((int)s + 5).GetComponent<SpriteRenderer>().color = e.TopColour;
             }
         }
     }
@@ -70,7 +73,7 @@ public class Entity : MonoBehaviour
         TaticPoints = 3 + Equipment.Sum(x => x.TacticPoints);
         ActionPoints = 3 + Equipment.Sum(x => x.ActionPoints);
         ArmourPoints = Equipment.Sum(x => x.ArmourPoints);
-        HealthPoints = 10 + Equipment.Sum(x => x.HealthPoints);
+        HealthPoints = 50 + Equipment.Sum(x => x.HealthPoints);
         Defence = ArmourPoints;
         Draw();
     }

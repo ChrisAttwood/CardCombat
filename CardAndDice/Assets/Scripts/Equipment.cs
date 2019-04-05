@@ -8,6 +8,12 @@ public class Equipment : ScriptableObject
 {
     public string Title;
     public Sprite Sprite;
+
+    public Sprite TopSprite;
+    public Sprite BackSprite;
+    public Color TopColour;
+    public Color BackColour;
+
     public Slot Slot;
     public List<Card> Cards;
     public int ActionPoints;

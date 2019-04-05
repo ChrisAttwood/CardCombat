@@ -15,13 +15,5 @@ MonoBehaviour:
   Title: Castle
   Sprite: {fileID: 21300000, guid: db6a449ce1b7d5a4386bfac0193f9694, type: 3}
   Level: 10
-  Primary:
-  - {fileID: 11400000, guid: 1b158368f1c0d414e91f154503f380cc, type: 2}
-  Secondary:
-  - {fileID: 11400000, guid: 9fd84c0bb42547743836571d9ed7be47, type: 2}
-  Head:
-  - {fileID: 11400000, guid: 0a2ec02dfee68b34a8b8faddc1c8dbac, type: 2}
-  Body:
-  - {fileID: 11400000, guid: ed0eced9a84c8af4bb9bb5713097355f, type: 2}
-  Legs:
-  - {fileID: 11400000, guid: 609b1653ae93b964bb08163cb95eecca, type: 2}
+  Colours:
+  - {r: 0.5, g: 0.5, b: 0.5, a: 1}

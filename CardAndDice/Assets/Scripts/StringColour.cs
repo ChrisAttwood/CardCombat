@@ -9,12 +9,10 @@ public static class StringColour
         return text
             .Replace("ATTACK", "<color=red>ATTACK</color>")
             .Replace("POWER", "<color=#CDCD00>POWER</color>")
-            .Replace("ACTION", "<color=green>ACTION</color>")
+            .Replace("ACTIONS", "<color=green>ACTIONS</color>")
             .Replace("DEFENCE", "<color=blue>DEFENCE</color>")
             .Replace("HEALTH", "<color=brown>HEALTH</color>")
-            .Replace("CARD", "<color=purple>CARD</color>")
-            //.Replace("-DEBUFF-", "<color=orange>-DEBUFF-</color>")
-            //.Replace("-BUFF-", "<color=cyan>-BUFF-</color>")
+            .Replace("CARDS", "<color=purple>CARDS</color>")
             .Replace("(-)", "<color=orange>(-)</color>")
             .Replace("(+)", "<color=cyan>(+)</color>")
             .Replace("TATICS", "<color=purple>TATICS</color>");

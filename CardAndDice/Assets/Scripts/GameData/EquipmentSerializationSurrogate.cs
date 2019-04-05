@@ -16,7 +16,11 @@ public class EquipmentSerializationSurrogate : ISerializationSurrogate
         info.AddValue("TacticPoints", b.TacticPoints);
         info.AddValue("Title", b.Title);
         info.AddValue("name", b.name);
-        info.AddValue("Sprite", b.Sprite.name);
+      //  info.AddValue("Sprite", b.Sprite.name);
+        info.AddValue("BackColour", b.BackColour);
+        info.AddValue("TopColour", b.TopColour);
+        info.AddValue("BackSprite", b.BackSprite.name);
+        info.AddValue("TopSprite", b.TopSprite.name);
 
 
     }
@@ -32,7 +36,15 @@ public class EquipmentSerializationSurrogate : ISerializationSurrogate
         b.TacticPoints = (int)info.GetValue("TacticPoints", typeof(int));
         b.Title = (string)info.GetValue("Title", typeof(string));
         b.name = (string)info.GetValue("name", typeof(string));
-        b.Sprite = Resources.Load<Sprite>("Sprites/" + (string)info.GetValue("Sprite", typeof(string)));
+       // b.Sprite = Resources.Load<Sprite>("Sprites/" + (string)info.GetValue("Sprite", typeof(string)));
+
+
+        b.BackColour = (Color)info.GetValue("BackColour", typeof(Color));
+        b.TopColour = (Color)info.GetValue("TopColour", typeof(Color));
+
+        b.BackSprite = Resources.Load<Sprite>( b.Slot.ToString()+"/" + (string)info.GetValue("BackSprite", typeof(string)));
+        b.TopSprite = Resources.Load<Sprite>(b.Slot.ToString() + "/" + (string)info.GetValue("TopSprite", typeof(string)));
+
         obj = b;
         return obj;
     }

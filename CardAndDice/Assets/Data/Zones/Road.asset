@@ -15,17 +15,5 @@ MonoBehaviour:
   Title: Road
   Sprite: {fileID: 21300000, guid: 3f3926f52e232f84b945baec49180c33, type: 3}
   Level: 2
-  Primary: []
-  Secondary:
-  - {fileID: 11400000, guid: f4fc40cbd38b18f478b1d3fbce2f24a6, type: 2}
-  Head:
-  - {fileID: 11400000, guid: 63b2ebe40da6c204887d814859771587, type: 2}
-  - {fileID: 11400000, guid: 37557cd1290e5ad4b8cfc5c81f7fadfe, type: 2}
-  Body: []
-  Legs:
-  - {fileID: 11400000, guid: b0ae0f21acac61a41b932374d5c5cb17, type: 2}
-  - {fileID: 11400000, guid: b3832de8bdb29c74f9704d6147785f9e, type: 2}
-  - {fileID: 11400000, guid: 1f22073e7bfbbed45bb541ce647381de, type: 2}
-  - {fileID: 11400000, guid: 2e68208a1c4e73d4697be99d475a1ad7, type: 2}
-  - {fileID: 11400000, guid: 8752ef4de1c26584d83447bf7b6aa578, type: 2}
-  - {fileID: 11400000, guid: fad12c7519b74d34f93819de620d9c99, type: 2}
+  Colours:
+  - {r: 0.5, g: 0.5, b: 0.5, a: 1}

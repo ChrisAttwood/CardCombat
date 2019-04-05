@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ef3e063971477344a962a9280860683, type: 3}
+  m_Name: Attack25%
+  m_EditorClassIdentifier: 
+  Title: Debuff
+  Description: 
+  Cost: 0
+  Attack: 0
+  Defence: 0
+  Tactics: 0
+  Actions: 0
+  Health: 0
+  Power: -3
+  PowerEffect: 0
+  PowerSink: 0
+  PowerRequired: 3
+  Buffs:
+  - {fileID: 11400000, guid: 549929eb23ef99344bc660131a23ab74, type: 2}

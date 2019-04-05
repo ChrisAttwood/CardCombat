@@ -15,18 +15,5 @@ MonoBehaviour:
   Title: Mill
   Sprite: {fileID: 21300000, guid: 1752523cd139bd94aad8775874453169, type: 3}
   Level: 5
-  Primary:
-  - {fileID: 11400000, guid: 388012314e73ccd49ac95a0f85d832df, type: 2}
-  - {fileID: 11400000, guid: 9a1bf1ab0eb2a054e9c11c277e7dd4b6, type: 2}
-  - {fileID: 11400000, guid: 80d37839b1b989649951607a32d32d56, type: 2}
-  Secondary: []
-  Head:
-  - {fileID: 11400000, guid: 024c1024bb0675145af9178a6d04eed9, type: 2}
-  Body: []
-  Legs:
-  - {fileID: 11400000, guid: b0ae0f21acac61a41b932374d5c5cb17, type: 2}
-  - {fileID: 11400000, guid: b3832de8bdb29c74f9704d6147785f9e, type: 2}
-  - {fileID: 11400000, guid: 1f22073e7bfbbed45bb541ce647381de, type: 2}
-  - {fileID: 11400000, guid: 2e68208a1c4e73d4697be99d475a1ad7, type: 2}
-  - {fileID: 11400000, guid: 8752ef4de1c26584d83447bf7b6aa578, type: 2}
-  - {fileID: 11400000, guid: fad12c7519b74d34f93819de620d9c99, type: 2}
+  Colours:
+  - {r: 0.5, g: 0.5, b: 0.5, a: 1}
