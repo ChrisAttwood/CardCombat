@@ -49,7 +49,7 @@ public class EquipmentManager : MonoBehaviour
 
 
  
-    public Equipment GetEquipment(int level, Slot slot,Color[] colors)
+    public Equipment GetEquipment(int level, Slot slot)
     {
         Equipment equipment = ScriptableObject.CreateInstance(typeof(Equipment)) as Equipment;
 
@@ -59,49 +59,42 @@ public class EquipmentManager : MonoBehaviour
         {
             equipment.Cards.Add(Cards[Random.Range(0, Cards.Length)]);
         }
-        equipment.BackColour = RandomBackColour();// colors[Random.Range(0, colors.Length)];
-        equipment.TopColour = RandomTopColour();// colors[Random.Range(0, colors.Length)];
+        equipment.BackColour = RandomBackColour();
+        equipment.TopColour = RandomTopColour();
 
         switch (slot)
         {
             case Slot.Body:
                 equipment.BackSprite = BodyBack[Random.Range(0, BodyBack.Length)];
                 equipment.TopSprite = BodyTop[Random.Range(0, BodyTop.Length)];
+                equipment.HealthPoints = 20;
                 break;
             case Slot.Head:
                 equipment.BackSprite = HeadBack[Random.Range(0, HeadBack.Length)];
                 equipment.TopSprite = HeadTop[Random.Range(0, HeadTop.Length)];
+                equipment.HealthPoints = 10;
+                equipment.TacticPoints = 1;
+                equipment.ActionPoints = 1;
                 break;
             case Slot.Legs:
                 equipment.BackSprite = LegsBack[Random.Range(0, LegsBack.Length)];
                 equipment.TopSprite = LegsTop[Random.Range(0, LegsTop.Length)];
+                equipment.HealthPoints = 20;
                 break;
             case Slot.Primary:
                 equipment.BackSprite = PrimaryBack[Random.Range(0, PrimaryBack.Length)];
                 equipment.TopSprite = PrimaryTop[Random.Range(0, PrimaryTop.Length)];
+                equipment.Cards.Add(Cards[Random.Range(0, Cards.Length)]);
+                equipment.Cards.Add(Cards[Random.Range(0, Cards.Length)]);
                 break;
             case Slot.Secondary:
                 equipment.BackSprite = SecondaryBack[Random.Range(0, SecondaryBack.Length)];
                 equipment.TopSprite = SecondaryTop[Random.Range(0, SecondaryTop.Length)];
+                equipment.ArmourPoints = 5;
+                
                 break;
         }
 
-        if (Random.Range(0, 10) == 0)
-        {
-            equipment.ActionPoints = 1;
-        }
-
-        if (Random.Range(0, 10) == 0)
-        {
-            equipment.ArmourPoints = 5;
-        }
-
-        if (Random.Range(0, 10) == 0)
-        {
-            equipment.TacticPoints = 1;
-        }
-
-        equipment.HealthPoints = Random.Range(0, 3) * 5;
 
         return equipment;
     }

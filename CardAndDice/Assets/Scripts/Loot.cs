@@ -46,6 +46,7 @@ public class Loot : MonoBehaviour
             {
                 btn.transform.GetChild(1).GetComponent<Text>().text = "empty";
                 btn.GetComponent<Image>().color = Color.black;
+                btn.transform.GetChild(0).GetComponent<Image>().color = Color.black;
                 btn.interactable = false;
             }
             else
@@ -67,6 +68,7 @@ public class Loot : MonoBehaviour
             {
                 lootBtn.transform.GetChild(1).GetComponent<Text>().text = "empty";
                 lootBtn.GetComponent<Image>().color = Color.black;
+                lootBtn.transform.GetChild(0).GetComponent<Image>().color = Color.black;
                 lootBtn.interactable = false;
             }
             else

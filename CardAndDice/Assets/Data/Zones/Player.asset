@@ -14,11 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: Player
   Sprite: {fileID: 21300000, guid: 6925bf4d91953ca4ea6e7846a06e3f57, type: 3}
-  Level: 0
-  Colours:
-  - {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  - {r: 0.5, g: 0.8, b: 0.8, a: 1}
-  - {r: 0.8, g: 0.8, b: 0.5, a: 1}
-  - {r: 0.5, g: 0.5, b: 0.8, a: 1}
-  - {r: 0.8, g: 0.5, b: 0.5, a: 1}
-  - {r: 0.5, g: 0.8, b: 0.5, a: 1}
+  Level: 5

@@ -10,28 +10,35 @@ public class Zone : ScriptableObject
 
     public Sprite Sprite;
 
-
     public int Level;
 
-    public Color[] Colours;
-
-
+ 
     public List<Equipment> Get()
     {
         List<Equipment> equipment = new List<Equipment>();
 
-        //if (Primary.Length > 0) equipment.Add(Primary[Random.Range(0, Primary.Length)]);
-        //if (Secondary.Length > 0) equipment.Add(Secondary[Random.Range(0, Secondary.Length)]);
-        //if (Head.Length > 0) equipment.Add(Head[Random.Range(0, Head.Length)]);
-        //if (Body.Length > 0) equipment.Add(Body[Random.Range(0, Body.Length)]);
-        //if (Legs.Length > 0) equipment.Add(Legs[Random.Range(0, Legs.Length)]);
+   
 
+        equipment.Add(EquipmentManager.instance.GetEquipment(Level, Slot.Primary));
+        equipment.Add(EquipmentManager.instance.GetEquipment(Level, Slot.Legs));
 
-        equipment.Add(EquipmentManager.instance.GetEquipment(Level, Slot.Primary, Colours));
-        equipment.Add(EquipmentManager.instance.GetEquipment(Level, Slot.Secondary, Colours));
-        equipment.Add(EquipmentManager.instance.GetEquipment(Level, Slot.Body, Colours));
-        equipment.Add(EquipmentManager.instance.GetEquipment(Level, Slot.Head, Colours));
-        equipment.Add(EquipmentManager.instance.GetEquipment(Level, Slot.Legs, Colours));
+        if (Random.Range(Level, 20) > 10)
+        {
+            equipment.Add(EquipmentManager.instance.GetEquipment(Level, Slot.Secondary));
+        }
+
+        if (Random.Range(Level, 30) > 10)
+        {
+            equipment.Add(EquipmentManager.instance.GetEquipment(Level, Slot.Body));
+        }
+
+        if (Random.Range(Level, 15) > 10)
+        {
+            equipment.Add(EquipmentManager.instance.GetEquipment(Level, Slot.Head));
+        }
+
+            
+        
 
 
         return equipment;
