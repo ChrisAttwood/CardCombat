@@ -186,6 +186,7 @@ public class Battle : MonoBehaviour
 
     public void BeginTurn()
     {
+      //  Attacker.PowerPoints++;
         Attacker.BeginTurn();
         Attacker.DrawHand();
         DisplayHand();

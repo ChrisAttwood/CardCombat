@@ -194,6 +194,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 25b516e4cb2496543aa22a0cccc1bec4, type: 2}
   - {fileID: 11400000, guid: 25b516e4cb2496543aa22a0cccc1bec4, type: 2}
   - {fileID: 11400000, guid: ee480e806a48df84fa6263e16fa9986b, type: 2}
+  - {fileID: 11400000, guid: f4a46ca2074c36b44a96213c972ace7a, type: 2}
+  - {fileID: 11400000, guid: b5e648a304d6b534a84c412431afde30, type: 2}
+  - {fileID: 11400000, guid: d3f435d1c4290ab4d98d8f8066b72f05, type: 2}
+  - {fileID: 11400000, guid: a431f239f3382ba4f8324c3a9d6d2afa, type: 2}
+  - {fileID: 11400000, guid: fd0f105c3f25ed444b1cca61f866d68c, type: 2}
+  - {fileID: 11400000, guid: 5d7a4258a34dfdb45a418a3d7d71acbe, type: 2}
+  - {fileID: 11400000, guid: ca0f79e5d4e3fcf4b9bdfa61df20f599, type: 2}
+  - {fileID: 11400000, guid: 34f2003cc8d5f634493215bfccdf16b2, type: 2}
   PrimaryTop:
   - {fileID: 21300000, guid: 1fefcb6e15ba57d4aa41b043e26feb5f, type: 3}
   - {fileID: 21300000, guid: fc00293388c46bb45a006a2cd97d3239, type: 3}
@@ -206,6 +214,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: d0e0bc7ef80591b4e9f6972a090e93cc, type: 3}
   - {fileID: 21300000, guid: 8c6e3185e3d0ff143928dbd3db3e3fbe, type: 3}
   - {fileID: 21300000, guid: 313bef6996157bb45ae703fdf9b6e877, type: 3}
+  - {fileID: 21300000, guid: b3b881687b233804cb6424980a99ae78, type: 3}
   SecondaryBack:
   - {fileID: 21300000, guid: e5c1fecfcdf459d4798e6514606a43e1, type: 3}
   - {fileID: 21300000, guid: 6f468ca79d9061d42be8a8ee292d388d, type: 3}
@@ -214,6 +223,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1d0a87452b4801644a55aa447f7e591e, type: 3}
   - {fileID: 21300000, guid: 008288b220784e749ad5c20935400ba0, type: 3}
   - {fileID: 21300000, guid: 411c7162a77bed4498466e8acd20de1e, type: 3}
+  - {fileID: 21300000, guid: 0a5d5c0adb75b6e48ace455beea24640, type: 3}
   HeadBack:
   - {fileID: 21300000, guid: b254ef3c27117b9419677346f46f5fc5, type: 3}
   - {fileID: 21300000, guid: badc34be2c57bfd4785f32cf6630f24c, type: 3}
@@ -222,6 +232,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 54a795d891f1ea34ab46c5ef9c69bccd, type: 3}
   - {fileID: 21300000, guid: 337f44f5d6c27f04f849ab5d78f69fee, type: 3}
   - {fileID: 21300000, guid: 61d4bc8be5cd570439479d1eec7bbfb7, type: 3}
+  - {fileID: 21300000, guid: c3d4a06891cba16429d3b0290b966994, type: 3}
   BodyBack:
   - {fileID: 21300000, guid: d4e254864573cab49bf3d1a3af290ed5, type: 3}
   - {fileID: 21300000, guid: 891e09367e8132742a0c07625446a9af, type: 3}
@@ -230,6 +241,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 18367a26d17619442a952eb84e2d0859, type: 3}
   - {fileID: 21300000, guid: 5bba3611675a9ab42b1771574f113b90, type: 3}
   - {fileID: 21300000, guid: 2a68aed7be67e56478bd14526b76adfa, type: 3}
+  - {fileID: 21300000, guid: 901c7bcd0e366b04e9bf4ddd20abf6d9, type: 3}
   LegsBack:
   - {fileID: 21300000, guid: d453331233127cc4f8c4dbf665ee26d1, type: 3}
   - {fileID: 21300000, guid: 0b3ef2da12afa6a44a68f44068e6c409, type: 3}
