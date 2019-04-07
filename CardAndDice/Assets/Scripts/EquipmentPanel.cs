@@ -56,7 +56,7 @@ public class EquipmentPanel : MonoBehaviour
         }
         if (equipment.ActionPoints > 0)
         {
-            details += string.Format("ACTION : {0} \n", equipment.ActionPoints);
+            details += string.Format("ACTIONS : {0} \n", equipment.ActionPoints);
         }
         if (equipment.ArmourPoints > 0)
         {
