@@ -203,17 +203,17 @@ MonoBehaviour:
   SecondaryBack:
   - {fileID: 21300000, guid: e5c1fecfcdf459d4798e6514606a43e1, type: 3}
   HeadTop:
-  - {fileID: 21300000, guid: 667ef9707ca03c84ba81c3d30e407394, type: 3}
+  - {fileID: 21300000, guid: 1d0a87452b4801644a55aa447f7e591e, type: 3}
   HeadBack:
-  - {fileID: 21300000, guid: a7ef75c5c0a71ce4292fe4261aabb71b, type: 3}
+  - {fileID: 21300000, guid: b254ef3c27117b9419677346f46f5fc5, type: 3}
   BodyTop:
-  - {fileID: 21300000, guid: 62be8cfd98217614c971fe840ba17592, type: 3}
+  - {fileID: 21300000, guid: d4e254864573cab49bf3d1a3af290ed5, type: 3}
   BodyBack:
-  - {fileID: 21300000, guid: 18acd276e17ac6f4980e84adb740d454, type: 3}
+  - {fileID: 21300000, guid: 54a795d891f1ea34ab46c5ef9c69bccd, type: 3}
   LegsTop:
-  - {fileID: 21300000, guid: 95df5db7f49437f4b80dfe1316e07169, type: 3}
+  - {fileID: 21300000, guid: 18367a26d17619442a952eb84e2d0859, type: 3}
   LegsBack:
-  - {fileID: 21300000, guid: 5e59cefa84856c7419783fb64b5f7e54, type: 3}
+  - {fileID: 21300000, guid: d453331233127cc4f8c4dbf665ee26d1, type: 3}
   Player: {fileID: 11400000, guid: a12ed56c8505b734381f5013e76f4afd, type: 2}
   Castle: {fileID: 11400000, guid: 3afac2665408a4f49ae959986461e957, type: 2}
   Zones:
