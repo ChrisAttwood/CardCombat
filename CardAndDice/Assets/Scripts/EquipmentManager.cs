@@ -95,6 +95,14 @@ public class EquipmentManager : MonoBehaviour
                 break;
         }
 
+        if (level == 10)
+        {
+            equipment.ArmourPoints = equipment.ArmourPoints * 2;
+            equipment.TacticPoints = equipment.TacticPoints * 2;
+            equipment.ActionPoints = equipment.ActionPoints * 2;
+            equipment.HealthPoints = equipment.HealthPoints * 2;
+        }
+
 
         return equipment;
     }

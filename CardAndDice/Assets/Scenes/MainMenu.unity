@@ -206,6 +206,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1fefcb6e15ba57d4aa41b043e26feb5f, type: 3}
   - {fileID: 21300000, guid: fc00293388c46bb45a006a2cd97d3239, type: 3}
   - {fileID: 21300000, guid: 75b0b3802f4f0b744a35ef86c15587f8, type: 3}
+  - {fileID: 21300000, guid: 1694532059b321e45952a314675266e2, type: 3}
+  - {fileID: 21300000, guid: 6f389cefe6556ef42be6e7da823a9ac1, type: 3}
+  - {fileID: 21300000, guid: d3e6c2f6780552c43a31aa46eb928085, type: 3}
   PrimaryBack:
   - {fileID: 21300000, guid: ff5a95d6c94c94c4a9b1db3e9c15cb93, type: 3}
   - {fileID: 21300000, guid: 374fb588c02d62c4da13abe58f087d5d, type: 3}
