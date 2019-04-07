@@ -196,24 +196,44 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ee480e806a48df84fa6263e16fa9986b, type: 2}
   PrimaryTop:
   - {fileID: 21300000, guid: 1fefcb6e15ba57d4aa41b043e26feb5f, type: 3}
+  - {fileID: 21300000, guid: fc00293388c46bb45a006a2cd97d3239, type: 3}
+  - {fileID: 21300000, guid: 75b0b3802f4f0b744a35ef86c15587f8, type: 3}
   PrimaryBack:
   - {fileID: 21300000, guid: ff5a95d6c94c94c4a9b1db3e9c15cb93, type: 3}
+  - {fileID: 21300000, guid: 374fb588c02d62c4da13abe58f087d5d, type: 3}
+  - {fileID: 21300000, guid: 9c642f90dbf93d941801fbf100612d33, type: 3}
   SecondaryTop:
   - {fileID: 21300000, guid: d0e0bc7ef80591b4e9f6972a090e93cc, type: 3}
+  - {fileID: 21300000, guid: 8c6e3185e3d0ff143928dbd3db3e3fbe, type: 3}
+  - {fileID: 21300000, guid: 313bef6996157bb45ae703fdf9b6e877, type: 3}
   SecondaryBack:
   - {fileID: 21300000, guid: e5c1fecfcdf459d4798e6514606a43e1, type: 3}
+  - {fileID: 21300000, guid: 6f468ca79d9061d42be8a8ee292d388d, type: 3}
+  - {fileID: 21300000, guid: ea5616043a69ddf4da57b8661010f987, type: 3}
   HeadTop:
   - {fileID: 21300000, guid: 1d0a87452b4801644a55aa447f7e591e, type: 3}
+  - {fileID: 21300000, guid: 008288b220784e749ad5c20935400ba0, type: 3}
+  - {fileID: 21300000, guid: 411c7162a77bed4498466e8acd20de1e, type: 3}
   HeadBack:
   - {fileID: 21300000, guid: b254ef3c27117b9419677346f46f5fc5, type: 3}
+  - {fileID: 21300000, guid: badc34be2c57bfd4785f32cf6630f24c, type: 3}
+  - {fileID: 21300000, guid: 3a35353997bb4df4a88e482a1c6878d1, type: 3}
   BodyTop:
-  - {fileID: 21300000, guid: d4e254864573cab49bf3d1a3af290ed5, type: 3}
-  BodyBack:
   - {fileID: 21300000, guid: 54a795d891f1ea34ab46c5ef9c69bccd, type: 3}
+  - {fileID: 21300000, guid: 337f44f5d6c27f04f849ab5d78f69fee, type: 3}
+  - {fileID: 21300000, guid: 61d4bc8be5cd570439479d1eec7bbfb7, type: 3}
+  BodyBack:
+  - {fileID: 21300000, guid: d4e254864573cab49bf3d1a3af290ed5, type: 3}
+  - {fileID: 21300000, guid: 891e09367e8132742a0c07625446a9af, type: 3}
+  - {fileID: 21300000, guid: e9d3e14cf43fcf6469c9739a382aff9b, type: 3}
   LegsTop:
   - {fileID: 21300000, guid: 18367a26d17619442a952eb84e2d0859, type: 3}
+  - {fileID: 21300000, guid: 5bba3611675a9ab42b1771574f113b90, type: 3}
+  - {fileID: 21300000, guid: 2a68aed7be67e56478bd14526b76adfa, type: 3}
   LegsBack:
   - {fileID: 21300000, guid: d453331233127cc4f8c4dbf665ee26d1, type: 3}
+  - {fileID: 21300000, guid: 0b3ef2da12afa6a44a68f44068e6c409, type: 3}
+  - {fileID: 21300000, guid: 4473480d72163f34e92ac9fa6613e9dd, type: 3}
   Player: {fileID: 11400000, guid: a12ed56c8505b734381f5013e76f4afd, type: 2}
   Castle: {fileID: 11400000, guid: 3afac2665408a4f49ae959986461e957, type: 2}
   Zones:

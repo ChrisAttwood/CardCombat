@@ -49,7 +49,7 @@ public class EquipmentManager : MonoBehaviour
 
 
  
-    public Equipment GetEquipment(int level, Slot slot)
+    public Equipment GetEquipment(int level, Slot slot,Color backColour,Color topColour)
     {
         Equipment equipment = ScriptableObject.CreateInstance(typeof(Equipment)) as Equipment;
 
@@ -59,8 +59,8 @@ public class EquipmentManager : MonoBehaviour
         {
             equipment.Cards.Add(Cards[Random.Range(0, Cards.Length)]);
         }
-        equipment.BackColour = RandomBackColour();
-        equipment.TopColour = RandomTopColour();
+        equipment.BackColour = GetColour(backColour);//RandomBackColour();
+        equipment.TopColour = GetColour(topColour);//RandomTopColour();
 
         switch (slot)
         {
@@ -98,6 +98,18 @@ public class EquipmentManager : MonoBehaviour
 
         return equipment;
     }
+
+    Color GetColour(Color color)
+    {
+        float r = color.r + (Random.Range(-1, 2) * 0.1f);
+        float g = color.g + (Random.Range(-1, 2) * 0.1f);
+        float b = color.b + (Random.Range(-1, 2) * 0.1f);
+
+        return new Color(r, g, b);
+
+
+    }
+
 
     Color RandomBackColour()
     {

@@ -15,5 +15,5 @@ MonoBehaviour:
   Title: Inn
   Sprite: {fileID: 21300000, guid: 8a019a14d014ebf41b79b7841d7319c1, type: 3}
   Level: 5
-  Colours:
-  - {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  BackColor: {r: 0.7, g: 0.2, b: 0.2, a: 1}
+  TopColor: {r: 0.2, g: 0.2, b: 0.7, a: 1}

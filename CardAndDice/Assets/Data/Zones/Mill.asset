@@ -15,5 +15,5 @@ MonoBehaviour:
   Title: Mill
   Sprite: {fileID: 21300000, guid: 1752523cd139bd94aad8775874453169, type: 3}
   Level: 5
-  Colours:
-  - {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  BackColor: {r: 0.8, g: 0.5, b: 0.1, a: 1}
+  TopColor: {r: 0.5, g: 0.5, b: 0.1, a: 1}
